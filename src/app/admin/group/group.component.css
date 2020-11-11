@@ -1,0 +1,32 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.content {
+  width: 700px;
+  margin-top: 70px;
+  border: 1px solid #000;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.card {
+  margin: 10px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  width: 350px;
+  border: 1px solid #125699;
+  border-radius: 25px;
+}
+
+.card-image {
+  height: 100px;
+  width: 100px;
+  background-color: #125699;
+  border-radius: 20px;
+}

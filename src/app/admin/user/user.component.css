@@ -1,0 +1,39 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.content {
+  width: 700px;
+  margin-top: 70px;
+  height: 500px;
+  border: 1px solid #000;
+  border-radius: 30px;
+  text-align: center;
+}
+
+.flex-box {
+  padding: 20px 25px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.flex-img {
+  width: 200px;
+  height: 200px;
+  background-color: #1976d2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+
+.flex-content {
+  box-sizing: border-box;
+  text-align: left;
+  width: calc(100% - 250px);
+  height: 200px;
+}
+
